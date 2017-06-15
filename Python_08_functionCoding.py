@@ -10,11 +10,3 @@
 #f=abs
 #print(f(-10));
 
-
-# 函数的参数的可以是一个函数的参数
-  x=5
-  y=6
-  f=abs
-def add(x, y, z):
-    return  f(x) + f(y)
-print(add(5,6,abs))
